@@ -4,31 +4,28 @@
 		h1{
 			color :red;
 		}
-		table{
-			margin :10px;
-			padding :10px
+		input{
+		padding :10px;
+		margin :10px;
+		}
+		label{
+		color : blue;
+		padding :10px;
+		margin :10px;
 		}
 	</style>
 </head>
 <body>
-	<h1>Login Form</h1>
-<form>
-	<table algin='center'>
-		<tr>
-			<td>User Name </td>
-			<td><input type='text' name='uname'/></td>
-		</tr>
-		<tr>
-			<td>User Name </td>
-			<td><input type='text' name='uname'/></td>
-		</tr>
-		<tr>
-			<td>Password Name </td>
-			<td><input type='password' name='upwd'/></td>
-		</tr>
-		<tr>
-			<td>User Name </td>
-			<td><input type='submit' value='Login'/></td>
-		</tr>
-	</table>
-</form>
+	<h1> Login Form </h1>
+    <form >
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" ><br><br>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" ><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
